@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+.btn {
+      @apply  bg-cyan rounded-lg p-3 mt-4 text-sm text-white font-serif gap-2 font-bold hover:bg-hover;
+    }
+
+.center {
+    @apply flex justify-center items-center  ;
+}
+
+@tailwind utilities;

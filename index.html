@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="center h-screen bg-cream">
+      <div class="center flex-col lg:flex-row">
+        <img
+          class="rounded-l-lg w-72 lg:block hidden"
+          src="images/image-product-desktop.jpg"
+          alt="product-img-desktop"
+        />
+
+        <img
+          class="w-80 rounded-t-lg lg:hidden"
+          src="images/image-product-mobile.jpg"
+          alt="Product-img-mob"
+        />
+
+        <div class="bg-white lg:p-10 lg:h-[27rem] lg:w-80 lg:px-2 pb-5">
+          <h2 class="text-grey text-xs font-medium lg:m-0 lg:pb-2 mt-5 px-5 py-2 font-serif">
+            P E R F U M E
+          </h2>
+          <h1
+            class="text-blue w-80 lg:w-72 px-5 py-2 text-3xl font-sans font-bold leading-8"
+          >
+           <p>Gabrielle Essence Eau</p> 
+            De Parfum
+          </h1>
+          <p
+            class="text-grey w-80 text-sm lg:w-72 px-5 py-2 font-serif font-medium leading-6"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="flex">
+            <span class="text-cyan text-3xl px-5 font-bold">$149.99</span
+            ><s class="text-grey pt-2 text-sm">$169.99</s>
+          </div>
+          <button class="btn center ml-5 w-72">
+            <img class="w-4" src="images/icon-cart.svg" alt="cart-svg" />Add to
+            Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Darshan Kumawat</a>.
+    </div> -->
+  </body>
+</html>
